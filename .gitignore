@@ -1,0 +1,22 @@
+# Ignore data files (heavy CSVs)
+data/cotopaxi_df_clean.csv
+data/cotopaxi_df_processed.csv
+data/hogar_cant.csv
+
+# Ignore SQLite databases
+*.db
+
+# Ignore system and metadata files
+.DS_Store
+*.log
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+env/
+venv/
